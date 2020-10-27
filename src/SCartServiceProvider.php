@@ -26,6 +26,8 @@ class SCartServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/config/shoppingcart.php' =>  config_path('shoppingcart.php'),
+         ], 'config');
     }
 }

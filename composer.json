@@ -1,0 +1,14 @@
+{
+    "name": "eng-saber/scart",
+    "description": "A simple shoppingcart implementation for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saber Said",
+            "email": "saber.smesem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

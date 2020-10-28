@@ -17,7 +17,7 @@ class SCartServiceProvider extends ServiceProvider
         if ($this->getStorageService() == 'session')
         {
             $this->app->singleton('shoppingcart', function($app) {
-                return new Session();
+                return new Session($app['session'],$app['events']);
             });
         } else
         {
